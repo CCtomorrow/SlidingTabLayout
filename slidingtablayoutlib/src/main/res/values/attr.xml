@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="YSlidingTabLayout">
+        <!-- tab数量较多的时候，设置最左边的tab的一个偏移 -->
+        <attr name="tab_title_offset" format="dimension"/>
+        <!-- tab数量较少的时候平分列 -->
+        <attr name="tab_distribut_col_evenly" format="boolean"/>
+        <!-- ViewPager平滑的滑动 -->
+        <attr name="tab_view_pager_smooth_scroll" format="boolean"/>
+
+        <!-- TextView Typeface -->
+        <attr name="tab_text_type_face" format="enum">
+            <enum name="DEFAULT" value="0"/>
+            <enum name="DEFAULT_BOLD" value="1"/>
+            <enum name="SANS_SERIF" value="2"/>
+            <enum name="SERIF" value="3"/>
+            <enum name="MONOSPACE" value="4"/>
+        </attr>
+        <!-- TextView的文字大小 -->
+        <attr name="tab_text_size" format="dimension"/>
+        <!-- TextView的文字颜色 -->
+        <attr name="tab_text_color" format="reference|color"/>
+
+        <!-- Top Bordor颜色 -->
+        <attr name="tab_top_border_color" format="color"/>
+        <!-- Top Bordor高度 -->
+        <attr name="tab_top_border_height" format="dimension"/>
+
+        <!-- Bottom Bordor颜色 -->
+        <attr name="tab_bottom_border_color" format="color"/>
+        <!-- Bottom Bordor高度 -->
+        <attr name="tab_bottom_border_height" format="dimension"/>
+
+        <!-- Top Indicator颜色 -->
+        <attr name="tab_top_indicator_color" format="color"/>
+        <!-- Top Indicator高度 -->
+        <attr name="tab_top_indicator_height" format="dimension"/>
+
+        <!-- Indicator 不想全部的占据整个View，给个padding -->
+        <attr name="tab_indicator_padding" format="dimension"/>
+
+        <!-- Bottom Indicator颜色 -->
+        <attr name="tab_bottom_indicator_color" format="color"/>
+        <!-- Bottom Indicator高度 -->
+        <attr name="tab_bottom_indicator_height" format="dimension"/>
+
+        <!-- Text Indicator颜色 -->
+        <attr name="tab_text_indicator_color" format="color"/>
+        <!-- Text Indicator高度 -->
+        <attr name="tab_text_indicator_stroke" format="dimension"/>
+        <!-- Text 可能需要超出Text一点距离 -->
+        <attr name="tab_text_indicator_padding" format="dimension"/>
+
+        <!-- Divider颜色 -->
+        <attr name="tab_divider_color" format="color"/>
+        <!-- Indicator宽度 -->
+        <attr name="tab_divider_stroke" format="dimension"/>
+        <!-- Indicator高度占总高度的比例范围0-1 -->
+        <attr name="tab_divider_heiht_ratio" format="float"/>
+
+        <!-- Tab TextView的Padding -->
+        <attr name="tab_text_padding" format="dimension"/>
+        <attr name="tab_text_padding_left" format="dimension"/>
+        <attr name="tab_text_padding_top" format="dimension"/>
+        <attr name="tab_text_padding_right" format="dimension"/>
+        <attr name="tab_text_padding_bottom" format="dimension"/>
+
+    </declare-styleable>
+</resources>

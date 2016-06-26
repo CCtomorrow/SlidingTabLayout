@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.yong.slidingtablayout.SlidingTabLayout
+        android:id="@+id/sliding_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:tab_bottom_border_color="@color/colorPrimary"
+        app:tab_bottom_border_height="1dp"
+        app:tab_bottom_indicator_color="@android:color/holo_green_light"
+        app:tab_bottom_indicator_height="3dp"
+        app:tab_distribut_col_evenly="true"
+        app:tab_divider_color="@android:color/darker_gray"
+        app:tab_divider_heiht_ratio="0.5"
+        app:tab_divider_stroke="1dp"
+        app:tab_indicator_padding="5dp"
+        app:tab_text_color="@color/color_text_select"
+        app:tab_text_indicator_color="@android:color/darker_gray"
+        app:tab_text_indicator_padding="3dp"
+        app:tab_text_indicator_stroke="1dp"
+        app:tab_text_padding="12dp"
+        app:tab_text_size="14sp"
+        app:tab_text_type_face="DEFAULT_BOLD"
+        app:tab_title_offset="20dp"
+        app:tab_top_border_color="@color/colorAccent"
+        app:tab_top_border_height="1dp"
+        app:tab_top_indicator_color="@android:color/holo_blue_bright"
+        app:tab_top_indicator_height="3dp"
+        app:tab_view_pager_smooth_scroll="false"/>
+
+    <com.yong.slidingtablayout.SlidingTabLayout
+        android:id="@+id/sliding_tabs2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:tab_bottom_indicator_color="@android:color/holo_green_light"
+        app:tab_bottom_indicator_height="3dp"
+        app:tab_distribut_col_evenly="true"
+        app:tab_indicator_padding="5dp"
+        app:tab_text_color="@color/color_text_select"
+        app:tab_text_padding="12dp"
+        app:tab_text_size="14sp"
+        app:tab_text_type_face="DEFAULT_BOLD"
+        app:tab_title_offset="20dp"
+        app:tab_view_pager_smooth_scroll="false"/>
+
+    <com.yong.slidingtablayout.SlidingTabLayout
+        android:id="@+id/sliding_tabs3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:tab_bottom_indicator_height="0dp"
+        app:tab_distribut_col_evenly="true"
+        app:tab_text_color="@color/color_text_select"
+        app:tab_text_indicator_color="@android:color/darker_gray"
+        app:tab_text_indicator_padding="3dp"
+        app:tab_text_indicator_stroke="1dp"
+        app:tab_text_padding="12dp"
+        app:tab_text_size="14sp"
+        app:tab_text_type_face="DEFAULT_BOLD"
+        app:tab_title_offset="20dp"
+        app:tab_view_pager_smooth_scroll="false"/>
+
+    <com.yong.slidingtablayout.SlidingTabLayout
+        android:id="@+id/sliding_tabs4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:tab_bottom_indicator_height="0dp"
+        app:tab_distribut_col_evenly="true"
+        app:tab_divider_color="@android:color/darker_gray"
+        app:tab_divider_heiht_ratio="0.5"
+        app:tab_divider_stroke="1dp"
+        app:tab_text_color="@color/color_text_select"
+        app:tab_text_padding="12dp"
+        app:tab_text_size="14sp"
+        app:tab_text_type_face="DEFAULT_BOLD"
+        app:tab_title_offset="20dp"
+        app:tab_view_pager_smooth_scroll="false"/>
+
+    <com.yong.slidingtablayout.SlidingTabLayout
+        android:id="@+id/sliding_tabs5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:tab_bottom_indicator_height="0dp"
+        app:tab_distribut_col_evenly="true"
+        app:tab_indicator_padding="5dp"
+        app:tab_text_color="@color/color_text_select"
+        app:tab_text_padding="12dp"
+        app:tab_text_size="14sp"
+        app:tab_text_type_face="DEFAULT_BOLD"
+        app:tab_title_offset="20dp"
+        app:tab_view_pager_smooth_scroll="false"/>
+
+    <com.yong.slidingtablayout.SlidingTabLayout
+        android:id="@+id/sliding_tabs6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <com.yong.slidingtablayout.SlidingViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:background="@android:color/white"/>
+
+</LinearLayout>
