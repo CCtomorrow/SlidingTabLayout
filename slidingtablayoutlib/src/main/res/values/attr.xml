@@ -53,9 +53,9 @@
 
         <!-- Divider颜色 -->
         <attr name="tab_divider_color" format="color"/>
-        <!-- Indicator宽度 -->
+        <!-- Divider宽度 -->
         <attr name="tab_divider_stroke" format="dimension"/>
-        <!-- Indicator高度占总高度的比例范围0-1 -->
+        <!-- Divider高度占总高度的比例范围0-1 -->
         <attr name="tab_divider_heiht_ratio" format="float"/>
 
         <!-- Tab TextView的Padding -->
